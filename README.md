@@ -2,7 +2,7 @@
 
 # Flatdango Movie Theater
 
-Welcome to Flatdango Movie Theater! This project is a web application that allows users to browse movies, view movie details, purchase tickets, and watch trailers. The application features a continuously looping slider of movie posters for an engaging and immersive experience.
+This code challenge is a web application that allows users to browse movies, view movie details, and purchase tickets.
 
 ## Features
 
@@ -10,7 +10,7 @@ Welcome to Flatdango Movie Theater! This project is a web application that allow
 - **Movie Details**: View detailed information about each movie, including title, description, runtime, showtime, available tickets, and poster.
 - **Buy Tickets**: Purchase tickets for movies directly from the web application.
 - **Trailer Modal**: Watch trailers in a full-screen modal for an immersive experience.
-- **Seamless Slider**: Enjoy a continuously looping slider showcasing movie posters.
+
 
 ## Technologies Used
 
@@ -62,6 +62,7 @@ The movie data is stored in a JSON file (`db.json`). Below is an example structu
       "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg",
       "trailer": "videos/Manos The Hands of Fate Official Trailer.mp4"
     }
+]
 }
 ```
 
@@ -75,7 +76,7 @@ Follow these steps to use the application:
 
 3. **Buy Tickets**: To purchase tickets for a movie, click the "Buy Ticket" button. The available tickets count will decrease, and the button will be disabled if the movie is sold out.
 
-4. **Watch Trailers**: To watch a trailer, click the "Watch Trailer" button or click on a movie poster in the slider. The trailer will be displayed in a modal that covers the screen for an immersive experience.
+4. **Watch Trailers**: To watch a trailer, click the "Watch Trailer" button. The trailer will be displayed in a modal that covers the screen for an immersive experience.
 
 ## Code Structure
 
